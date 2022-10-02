@@ -4,7 +4,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "client")
-public class ClientModel
+public class ClientModel implements Serializable
 {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
